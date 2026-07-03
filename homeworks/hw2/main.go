@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	// task 1
 	fmt.Println("------ Task 1 ---")
+
 	schooling := 11
 	fmt.Println("Schooling:", schooling)
 
@@ -14,6 +15,7 @@ func main() {
 	// task 2
 	fmt.Println()
 	fmt.Println("------ Task 2 ---")
+
 	var name string = "Vladislav"
 	fmt.Println("Name:", name)
 
@@ -23,6 +25,7 @@ func main() {
 	// task 3
 	fmt.Println()
 	fmt.Println("------ Task 3 ---")
+
 	var steps int = 0
 	fmt.Println("Steps:", steps)
 
@@ -33,6 +36,7 @@ func main() {
 	// task 4
 	fmt.Println()
 	fmt.Println("------ Task 4 ---")
+
 	var largeNumber int
 	largeNumber = 5000000
 	fmt.Println("Large Number:", largeNumber)
@@ -40,7 +44,10 @@ func main() {
 	// task 5
 	fmt.Println()
 	fmt.Println("------ Task 5 ---")
+
 	const breakTime = 15
 	fmt.Println("Break Time:", breakTime)
 
+	// breakTime = 20
+	// Мы не можем изменить значение константы
 }
