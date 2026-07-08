@@ -62,8 +62,8 @@ func main() {
 	coins += 1200
 	fmt.Println("Coins after collecting 1200:", coins)
 
-	coins /= 2
-	fmt.Println("Coins after spending half:", coins)
+	coins *= 2
+	fmt.Println("Coins after doubling: ", coins)
 
 	coins -= 300
 	fmt.Println("Coins after spending 300:", coins)

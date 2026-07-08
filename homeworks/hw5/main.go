@@ -29,8 +29,7 @@ func main() {
 	fmt.Print("Enter the number of fragile items: ")
 	fmt.Scanln(&numberOfFragileItems)
 
-	baseCost := (weight * baseRate) + (distance * distanceRate) + (1 + float64(numberOfFragileItems)*fragileFee)
-
+	baseCost := (weight*baseRate)*(1+fragileFee*float64(numberOfFragileItems)) + (distance * distanceRate)
 	finalCost := baseCost * (1 + taxRate)
 	fmt.Println("--- Delivery information ---")
 	fmt.Printf("Name: %s\n", name)
