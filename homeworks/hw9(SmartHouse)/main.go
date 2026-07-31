@@ -54,7 +54,7 @@ func main() {
 		}
 
 		// если суммарное потребление за работу >100 кВт·ч, применяем налог
-		if power > 10 {
+		if consumption > 10 {
 			total += total * HighLoadTax
 		}
 
